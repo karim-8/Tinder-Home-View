@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1A7706947DD11F2F57FC90 /* Pods_Cameloan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CC98C4016BDF6A9BE5C898 /* Pods_Cameloan.framework */; };
 		8A5169CE2358B76E00C56316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169CD2358B76E00C56316 /* AppDelegate.swift */; };
 		8A5169D02358B76E00C56316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169CF2358B76E00C56316 /* ViewController.swift */; };
 		8A5169D32358B76E00C56316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5169D12358B76E00C56316 /* Main.storyboard */; };
 		8A5169D52358B77000C56316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5169D42358B77000C56316 /* Assets.xcassets */; };
 		8A5169D82358B77000C56316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5169D62358B77000C56316 /* LaunchScreen.storyboard */; };
+		8A5169E12358BC3A00C56316 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169E02358BC3A00C56316 /* GradientView.swift */; };
+		8A5169E32358BC4200C56316 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169E22358BC4200C56316 /* CustomView.swift */; };
+		8A5169E52358BC4900C56316 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5169E42358BC4800C56316 /* CustomView.xib */; };
+		8A5169E72358BC4F00C56316 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169E62358BC4F00C56316 /* UserModel.swift */; };
+		8A5169E92358C00E00C56316 /* SuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169E82358C00E00C56316 /* SuperView.swift */; };
+		8A5169EB2358C05F00C56316 /* DelegatesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5169EA2358C05F00C56316 /* DelegatesHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61C94205EE87F12FC7B95692 /* Pods-Cameloan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cameloan.release.xcconfig"; path = "Target Support Files/Pods-Cameloan/Pods-Cameloan.release.xcconfig"; sourceTree = "<group>"; };
 		8A5169CA2358B76E00C56316 /* Cameloan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cameloan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5169CD2358B76E00C56316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5169CF2358B76E00C56316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		8A5169D42358B77000C56316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A5169D72358B77000C56316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A5169D92358B77000C56316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5169E02358BC3A00C56316 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8A5169E22358BC4200C56316 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8A5169E42358BC4800C56316 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		8A5169E62358BC4F00C56316 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8A5169E82358C00E00C56316 /* SuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperView.swift; sourceTree = "<group>"; };
+		8A5169EA2358C05F00C56316 /* DelegatesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatesHandler.swift; sourceTree = "<group>"; };
+		F1CC98C4016BDF6A9BE5C898 /* Pods_Cameloan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cameloan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D2F16E7A5BF84736EFE830 /* Pods-Cameloan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cameloan.debug.xcconfig"; path = "Target Support Files/Pods-Cameloan/Pods-Cameloan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1A7706947DD11F2F57FC90 /* Pods_Cameloan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F4A13CD4347AAFC807CD2B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2F16E7A5BF84736EFE830 /* Pods-Cameloan.debug.xcconfig */,
+				61C94205EE87F12FC7B95692 /* Pods-Cameloan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8A5169C12358B76E00C56316 = {
 			isa = PBXGroup;
 			children = (
 				8A5169CC2358B76E00C56316 /* Cameloan */,
 				8A5169CB2358B76E00C56316 /* Products */,
+				5F4A13CD4347AAFC807CD2B0 /* Pods */,
+				B329857D0791C7FA029CC2DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,52 @@
 		8A5169CC2358B76E00C56316 /* Cameloan */ = {
 			isa = PBXGroup;
 			children = (
-				8A5169CD2358B76E00C56316 /* AppDelegate.swift */,
+				8A5169ED2358C11100C56316 /* Model */,
+				8A5169DF2358BA0100C56316 /* UiView+Extenstions */,
+				8A5169EC2358C0F200C56316 /* CardView */,
 				8A5169CF2358B76E00C56316 /* ViewController.swift */,
+				8A5169CD2358B76E00C56316 /* AppDelegate.swift */,
+				8A5169E02358BC3A00C56316 /* GradientView.swift */,
 				8A5169D12358B76E00C56316 /* Main.storyboard */,
 				8A5169D42358B77000C56316 /* Assets.xcassets */,
 				8A5169D62358B77000C56316 /* LaunchScreen.storyboard */,
 				8A5169D92358B77000C56316 /* Info.plist */,
 			);
 			path = Cameloan;
+			sourceTree = "<group>";
+		};
+		8A5169DF2358BA0100C56316 /* UiView+Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				8A5169E82358C00E00C56316 /* SuperView.swift */,
+				8A5169EA2358C05F00C56316 /* DelegatesHandler.swift */,
+			);
+			path = "UiView+Extenstions";
+			sourceTree = "<group>";
+		};
+		8A5169EC2358C0F200C56316 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				8A5169E42358BC4800C56316 /* CustomView.xib */,
+				8A5169E22358BC4200C56316 /* CustomView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		8A5169ED2358C11100C56316 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A5169E62358BC4F00C56316 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B329857D0791C7FA029CC2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1CC98C4016BDF6A9BE5C898 /* Pods_Cameloan.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5169DC2358B77000C56316 /* Build configuration list for PBXNativeTarget "Cameloan" */;
 			buildPhases = (
+				38E242D4C8D98B76F6B09033 /* [CP] Check Pods Manifest.lock */,
 				8A5169C62358B76E00C56316 /* Sources */,
 				8A5169C72358B76E00C56316 /* Frameworks */,
 				8A5169C82358B76E00C56316 /* Resources */,
+				9C4A966BAA64AF5DF7AF0BDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A5169D82358B77000C56316 /* LaunchScreen.storyboard in Resources */,
+				8A5169E52358BC4900C56316 /* CustomView.xib in Resources */,
 				8A5169D52358B77000C56316 /* Assets.xcassets in Resources */,
 				8A5169D32358B76E00C56316 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +199,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38E242D4C8D98B76F6B09033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cameloan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4A966BAA64AF5DF7AF0BDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cameloan/Pods-Cameloan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cameloan/Pods-Cameloan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cameloan/Pods-Cameloan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A5169C62358B76E00C56316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A5169D02358B76E00C56316 /* ViewController.swift in Sources */,
+				8A5169E32358BC4200C56316 /* CustomView.swift in Sources */,
+				8A5169E92358C00E00C56316 /* SuperView.swift in Sources */,
 				8A5169CE2358B76E00C56316 /* AppDelegate.swift in Sources */,
+				8A5169E72358BC4F00C56316 /* UserModel.swift in Sources */,
+				8A5169EB2358C05F00C56316 /* DelegatesHandler.swift in Sources */,
+				8A5169E12358BC3A00C56316 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +396,7 @@
 		};
 		8A5169DD2358B77000C56316 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D2F16E7A5BF84736EFE830 /* Pods-Cameloan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +414,7 @@
 		};
 		8A5169DE2358B77000C56316 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C94205EE87F12FC7B95692 /* Pods-Cameloan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

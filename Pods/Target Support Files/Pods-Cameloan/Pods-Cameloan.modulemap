@@ -1,0 +1,6 @@
+framework module Pods_Cameloan {
+  umbrella header "Pods-Cameloan-umbrella.h"
+
+  export *
+  module * { export * }
+}
